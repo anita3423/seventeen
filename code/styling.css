@@ -1,0 +1,33 @@
+﻿h1{
+    color: blue;
+text-align:left;
+}
+body{
+    
+    background-image:url("../image/snowhome.jpg");
+    background-size:100% 50%;
+    background-repeat: no-repeat;
+}
+ h2{
+   color:white;
+   text:Sans-serif 56px;
+   
+ }
+ 
+
+p{
+    font-family: verdana;
+    font-size:20px;
+    color:white;
+}
+ address{
+    display:block;
+    font-style:italic;
+}
+  
+ footer{
+     background-color:#999;
+     color:white;
+}
+
+
