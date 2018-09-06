@@ -14,12 +14,15 @@ h1{
 h2{
    color:cyan; 
    font-style: verdana;
-    font-size:60px;
+    font-size:40px;
 }
 #colright{
    float:center;
    borger:25px;
    padding: 150px 180px 45px;
+}
+.header{
+   font-style: sans-serif;
 }
  
 .liststyle{
@@ -42,9 +45,10 @@ nav{
    background:#999;
    padding:20px;
  }
- article{
-  float:left;
-padding:20px 50px 99px;
+ .column{
+  text-align:center;
+}
+
 width:70%;
 background color:#000;
 }
@@ -83,7 +87,7 @@ input[type=submit] {
 }*/
  body{
     background-image:url("../image/snowhome.jpg");
-    backgroung-size:100% 50%;
+    background-size:100% 50%;
     background-repeat: no-repeat;
     
 }
@@ -97,7 +101,7 @@ input[type=submit] {
 <div>
 <header text-align="right">
 <h1>SNS Rentals</h1>
-<h2 title="affordable prizes">Rent An Apartment.    Find your Home!!!<h2>
+<h2 class="header">Rent An Apartment. Find your Home!<h2>
 </header>
 
 </div>
@@ -105,48 +109,33 @@ input[type=submit] {
 <section>
   <nav>
 <ul class="liststyle">
-<li><a href="northstreet.html"><p>Click to learn more about the property in North st</p></a></li>
-<li>Click to learn more about the property in Livingston</li>
-<li><a href="quailapt.html">Click to learn more about the property in Quail</a></li>
-<li>Property in 2nd St</li>
+<li><a href="northstreet.html"><p>Properties in colonie.Click to View more</p></a></li>
+<li><p>Properties in Livingston Ave. Click to View more.</p></li>
+<li><a href="quailapt.html"><p>Properties in Quail St. Click to View more</p></a></li>
+<li><p>Properties in second St. Click to View more</p></a></li>
 </ul>
 </nav>
 
 
-<img src="../image/house.jpg" alt="house in Cropseyville" width="400px" height="400px">
+<img src="../image/house.jpg" alt="city" width="400px" height="350px">
 </div>
 
 
-<article>
-<p>Welcome to my website. If you are planning to rent an appartment <strong> fill the application </strong> and email it to</p><br>
- <a href="mailto:moses3423@yahoo.com">moses3423@yahoo.com.</a> </p>
-<br>
+<div class="column">
+<p>SNS Rentals is a small but longstanding business located in  
+<br>Albany NY. Our goal is to provide affordable housing for our tenants <br>
+and we go an extra mile to ensure that our clients are completely satisfied <br>
+with our service.</p>
 
-<p>If you are unable to email you can print the application and mail it to</p> 
-<address>
-
-P.O Box 1287<br>Albany NY<br> 12205
-</address> 
-</article>
-</section>
-<br>
-<br>
-<br>
  
-<div>
- <h2>Application</h2>
- <form action="/action_page.php">
-  first name:<input type="text"
- name= 
-"firstname" value="firstname"><br>
-  Last name:<input type="text"
- name="lastname" value="lastname"><br>
-<input type="submit" valur="submit">
-</form>
-</div>
 
-<footer>
-<p> contact # <br>5187275217</p>
+
+</div>
+ 
+
+
+<footer class="column">
+<p> For more information contact 518-322-2578</p>
 <p> moses3423@yahoo.com</p>
 </footer>
 
