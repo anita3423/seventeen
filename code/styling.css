@@ -1,10 +1,11 @@
 ﻿h1{
     color: blue;
-text-align:left;
+text-align:center;
+float:center
 }
 body{
     
-    background-image:url("../image/snowhome.jpg");
+    background-image:url("image/cityblue.jpg");
     background-size:100% 50%;
     background-repeat: no-repeat;
 }
@@ -16,12 +17,13 @@ body{
  
 
 p{
-    font-family: verdana;
+    font-family:'Abel';
     font-size:20px;
     color:cyan;
     text align:center;
 background-color:black;
 }
+
  address{
     display:block;
     font-style:italic;
